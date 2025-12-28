@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --background: #020617; /* Çok koyu gece mavisi */
+  --foreground: #f8fafc;
+}
+
+body {
+
+  background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
+  color: var(--foreground);
+  min-height: 100vh;
+}
