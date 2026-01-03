@@ -1,6 +1,6 @@
 // Components/ISSCard.tsx
 // Modern tekniklerin ve araçların kullanımı (P04) 
-export default function ISSCard({ data }) {
+export default function ISSCard({ data }: { data: { iss_position: { latitude: string; longitude: string } } }) {
   return (
     <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl p-6">
       <h2 className="text-neon-blue font-bold text-xl">ISS Live Location</h2>
