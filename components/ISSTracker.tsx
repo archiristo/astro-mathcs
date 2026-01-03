@@ -48,8 +48,8 @@ export default function ISSTracker() {
 
   return (
     <div className="backdrop-blur-xl bg-black/40 border border-white/10 p-8 rounded-3xl shadow-2xl">
-      <h1 className="text-2xl font-black italic tracking-tighter bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">
-        ISS LIVE TELEMETRY
+      <h1 className="text-2xl font-black tracking-tighter bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">
+        ISS Live Telemetry
       </h1>
 
       {error ? (
